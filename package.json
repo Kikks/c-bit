@@ -5,8 +5,10 @@
 		"build": "vite build",
 		"serve": "vite preview"
 	},
+	"dependencies": {
+		"sass": "^1.34.1"
+	},
 	"devDependencies": {
-		"sass": "^1.34.1",
 		"vite": "^2.3.5"
 	}
 }
