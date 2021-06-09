@@ -11,49 +11,49 @@ function changeServicesComponent() {
             </div>
 
             <div class="services__card-container">
-                <div class="services__card services__card--1">
+                <a href="/" class="services__card services__card--1">
                 <span class="services__card__text"
                     >Software Platforms & Programs</span
                 >
-                </div>
-                <div class="services__card services__card--2">
+                </a>
+                <a href="/" class="services__card services__card--2">
                     <span class="services__card__text">Robotics</span>
-                </div>
-                <div class="services__card services__card--3">
+                </a>
+                <a href="/" class="services__card services__card--3">
                     <span class="services__card__text"
                         >Web Development & Maintenance</span
                     >
-                </div>
-                <div class="services__card services__card--4">
+                </a>
+                <a href="/" class="services__card services__card--4">
                     <span class="services__card__text">
                         Digital Marketing & Content Development</span
                     >
-                </div>
-                <div class="services__card services__card--5">
+                </a>
+                <a href="/" class="services__card services__card--5">
                     <span class="services__card__text">
                         E-Commerce & Mobile Commerce</span
                     >
-                </div>
-                <div class="services__card services__card--6">
+                </a>
+                <a href="/" class="services__card services__card--6">
                     <span class="services__card__text">Social Media Marketing</span>
-                </div>
-                <div class="services__card services__card--7">
+                </a>
+                <a href="/" class="services__card services__card--7">
                     <span class="services__card__text">IT Consultancy & Services</span>
-                </div>
-                <div class="services__card services__card--8">
+                </a>
+                <a href="/" class="services__card services__card--8">
                     <span class="services__card__text">Artificial Intelligence</span>
-                </div>
-                <div class="services__card services__card--9">
+                </a>
+                <a href="/" class="services__card services__card--9">
                     <span class="services__card__text"
                         >Mobile App Design & Development</span
                     >
-                </div>
-                <div class="services__card services__card--10">
+                </a>
+                <a href="/" class="services__card services__card--10">
                     <span class="services__card__text">Automation</span>
-                </div>
-                <div class="services__card services__card--11">
+                </a>
+                <a href="/" class="services__card services__card--11">
                     <span class="services__card__text">Internet of Things IOT</span>
-                </div>
+                </a>
                 <div class="services__card services__card--12">
                     <span class="services__card__text">Coming Soon</span>
                 </div>
@@ -68,49 +68,49 @@ function changeServicesComponent() {
                 <p>We offer services that include:</p>
             </div>
 
-            <div class="services__card services__card--1">
+            <a href="/" class="services__card services__card--1">
                 <span class="services__card__text"
                     >Software Platforms & Programs</span
                 >
-            </div>
-            <div class="services__card services__card--2">
+            </a>
+            <a href="/" class="services__card services__card--2">
                 <span class="services__card__text">Robotics</span>
-            </div>
-            <div class="services__card services__card--3">
+            </a>
+            <a href="/" class="services__card services__card--3">
                 <span class="services__card__text"
                     >Web Development & Maintenance</span
                 >
-            </div>
-            <div class="services__card services__card--4">
+            </a>
+            <a href="/" class="services__card services__card--4">
                 <span class="services__card__text">
                     Digital Marketing & Content Development</span
                 >
-            </div>
-            <div class="services__card services__card--5">
+            </a>
+            <a href="/" class="services__card services__card--5">
                 <span class="services__card__text">
                     E-Commerce & Mobile Commerce</span
                 >
-            </div>
-            <div class="services__card services__card--6">
+            </a>
+            <a href="/" class="services__card services__card--6">
                 <span class="services__card__text">Social Media Marketing</span>
-            </div>
-            <div class="services__card services__card--7">
+            </a>
+            <a href="/" class="services__card services__card--7">
                 <span class="services__card__text">IT Consultancy & Services</span>
-            </div>
-            <div class="services__card services__card--8">
+            </a>
+            <a href="/" class="services__card services__card--8">
                 <span class="services__card__text">Artificial Intelligence</span>
-            </div>
-            <div class="services__card services__card--9">
+            </a>
+            <a href="/" class="services__card services__card--9">
                 <span class="services__card__text"
                     >Mobile App Design & Development</span
                 >
-            </div>
-            <div class="services__card services__card--10">
+            </a>
+            <a href="/" class="services__card services__card--10">
                 <span class="services__card__text">Automation</span>
-            </div>
-            <div class="services__card services__card--11">
+            </a>
+            <a href="/" class="services__card services__card--11">
                 <span class="services__card__text">Internet of Things IOT</span>
-            </div>
+            </a>
             <div class="services__card services__card--12">
                 <span class="services__card__text">Coming Soon</span>
             </div>

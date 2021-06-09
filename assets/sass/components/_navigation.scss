@@ -15,10 +15,14 @@
 
 	&__container {
 		@include container;
-		padding: 1.5rem;
+		padding: 1.5rem 0;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+
+		@media screen and (max-width: $bp-large) {
+			padding: 2rem;
+		}
 
 		@media screen and (max-width: $bp-small) {
 			padding: 2.5rem;

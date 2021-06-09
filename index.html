@@ -113,50 +113,50 @@
 					<p>We offer services that include:</p>
 				</div>
 
-				<div class="services__card services__card--1">
+				<a href="/" class="services__card services__card--1">
 					<span class="services__card__text"
 						>Software Platforms & Programs</span
 					>
-				</div>
-				<div class="services__card services__card--2">
+				</a>
+				<a href="/" class="services__card services__card--2">
 					<span class="services__card__text">Robotics</span>
-				</div>
-				<div class="services__card services__card--3">
+				</a>
+				<a href="/" class="services__card services__card--3">
 					<span class="services__card__text"
 						>Web Development & Maintenance</span
 					>
-				</div>
-				<div class="services__card services__card--4">
+				</a>
+				<a href="/" class="services__card services__card--4">
 					<span class="services__card__text">
 						Digital Marketing & Content Development</span
 					>
-				</div>
-				<div class="services__card services__card--5">
+				</a>
+				<a href="/" class="services__card services__card--5">
 					<span class="services__card__text">
 						E-Commerce & Mobile Commerce</span
 					>
-				</div>
-				<div class="services__card services__card--6">
+				</a>
+				<a href="/" class="services__card services__card--6">
 					<span class="services__card__text">Social Media Marketing</span>
-				</div>
-				<div class="services__card services__card--7">
+				</a>
+				<a href="/" class="services__card services__card--7">
 					<span class="services__card__text">IT Consultancy & Services</span>
-				</div>
-				<div class="services__card services__card--8">
+				</a>
+				<a href="/" class="services__card services__card--8">
 					<span class="services__card__text">Artificial Intelligence</span>
-				</div>
-				<div class="services__card services__card--9">
+				</a>
+				<a href="/" class="services__card services__card--9">
 					<span class="services__card__text"
 						>Mobile App Design & Development</span
 					>
-				</div>
-				<div class="services__card services__card--10">
+				</a>
+				<a href="/" class="services__card services__card--10">
 					<span class="services__card__text">Automation</span>
-				</div>
-				<div class="services__card services__card--11">
+				</a>
+				<a href="/" class="services__card services__card--11">
 					<span class="services__card__text">Internet of Things IOT</span>
-				</div>
-				<div class="services__card services__card--12">
+				</a>
+				<div href="/" class="services__card services__card--12">
 					<span class="services__card__text">Coming Soon</span>
 				</div>
 			</div>
@@ -330,10 +330,14 @@
 
 						<div class="form__input form__input-file-upload">
 							<label for="name" class="form__input-label">Attach Files</label>
-							<input type="file" class="form__input-file-upload-btn" />
-							<div class="form__input-file-upload-area">
+							<input
+								type="file"
+								id="file-input"
+								class="form__input-file-upload-btn"
+							/>
+							<label for="file-input" class="form__input-file-upload-area">
 								Drag 'n' drop some files here, or click to select files
-							</div>
+							</label>
 						</div>
 					</div>
 					<button type="submit" class="btn btn--primary margin__top--2">
@@ -423,15 +427,17 @@
 						to completion, and more.
 					</p>
 				</div>
-				<div class="news__input">
+				<form class="news__input">
 					<input
 						type="email"
 						placeholder="Your email address"
 						name="email"
 						class="news__input-area"
 					/>
-					<i class="lni lni-telegram-original news__input-btn"></i>
-				</div>
+					<button type="submit" class="news__input-btn-container">
+						<i class="lni lni-telegram-original news__input-btn"></i>
+					</button>
+				</form>
 			</div>
 		</section>
 
