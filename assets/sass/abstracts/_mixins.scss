@@ -1,0 +1,17 @@
+@mixin container {
+	max-width: $max-wdith;
+	width: 100%;
+	padding: 1rem;
+}
+
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+@mixin grid-center {
+	display: grid;
+	place-items: center;
+}

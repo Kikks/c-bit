@@ -1,0 +1,39 @@
+.btn {
+	border: none;
+	padding: 1rem 2.5rem;
+	display: inline-block;
+	border-radius: 0.5rem;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	letter-spacing: 0.1rem;
+	transition: $transition;
+
+	@media screen and (max-width: $bp-large) {
+		font-size: 1.7rem;
+	}
+
+	@media screen and (max-width: $bp-medium) {
+		font-size: 2.5rem;
+		padding: 2rem 3rem;
+		border-radius: 1rem;
+	}
+
+	@media screen and (max-width: $bp-small) {
+		font-size: 3rem;
+		padding: 2.2rem 3.2rem;
+	}
+
+	&:hover {
+		filter: brightness(150%);
+	}
+
+	&--primary {
+		background-color: $color-primary;
+		color: $text-color--light;
+	}
+
+	&--secondary {
+		background-color: $color-secondary;
+		color: $text-color--light;
+	}
+}

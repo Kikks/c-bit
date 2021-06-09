@@ -1,0 +1,85 @@
+.nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: transparent;
+	z-index: 10;
+
+	@media screen and (max-width: $bp-medium) {
+		background-color: $white;
+	}
+
+	&__container {
+		@include container;
+		padding: 1.5rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		@media screen and (max-width: $bp-small) {
+			padding: 2.5rem;
+		}
+
+		& .btn {
+			font-size: 1.7rem !important;
+		}
+	}
+
+	&__link {
+		font-weight: bold;
+		transition: $transition;
+
+		@media screen and (max-width: $bp-medium) {
+			font-size: 2rem;
+			font-weight: normal;
+		}
+
+		&:hover {
+			color: $color-secondary;
+		}
+
+		&-container {
+			display: flex;
+			align-items: center;
+			gap: 2rem;
+
+			@media screen and (max-width: $bp-small) {
+				display: none;
+			}
+		}
+	}
+
+	&__burger {
+		font-size: 5rem !important;
+
+		&-container {
+			padding: 1.5rem;
+			border: solid 1px $black;
+			border-radius: 1rem;
+
+			@media screen and (min-width: $bp-small) {
+				display: none;
+			}
+		}
+	}
+
+	&__logo {
+		height: 100%;
+
+		&__container {
+			height: 4rem;
+
+			@media screen and (max-width: $bp-medium) {
+				height: 7rem;
+			}
+
+			@media screen and (max-width: $bp-small) {
+				height: 7rem;
+			}
+		}
+	}
+}
