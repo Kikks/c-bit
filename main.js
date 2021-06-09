@@ -1,3 +1,5 @@
+import "./assets/sass/main.scss";
+
 function changeServicesComponent() {
 	const mediumScreenDown = window.matchMedia("(max-width: 900px)");
 	const servicesContainer = document.querySelector(".services__container");
