@@ -115,5 +115,5 @@ function changeServicesComponent() {
     `;
 	}
 }
-
+changeServicesComponent();
 window.onresize = changeServicesComponent;
